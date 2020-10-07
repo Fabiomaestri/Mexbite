@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+.nav-btn{
+    color:#f9130c;
+}
+.btn-outline-success:hover{
+    background-color: #f9130c;
+    color: white;
+}
+.f-btn{
+    background-color: #40833c;
+}
+/* Back Pulse */
+@-webkit-keyframes hvr-back-pulse {
+    50% {
+      background-color: #f9130c;
+    }
+  }
+  @keyframes hvr-back-pulse {
+    50% {
+      background-color: #f9130c;
+    }
+  }
+.hvr-back-pulse {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+    color: black!important;
+  }
+  .hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+    -webkit-animation-name: hvr-back-pulse;
+    animation-name: hvr-back-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-color: #f9130c;
+    background-color: #f9130c;
+    color: white !important;
+  }
+.nav-logo{
+    width: 70px;
+}
+.nav-item{
+    color: #3a3a3a;
+}
+.btn{
+    border: transparent;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Slab', sans-serif;
+    text-transform: uppercase;
+}
+h2{
+    color: #f9130c;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+h1, h5{
+    font-weight: 900;
+    color: #f9130c;
+    text-transform: uppercase;
+}
+
+/*jumbotron*/
+.m-jumbtron{
+    background-image: url(images/cover-3.jpg);
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+.opaque-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    Height:100%;
+    background-color:rgba(245, 155, 21, 0.884);
+}
+.jumbotron{
+    background-color: transparent;
+    text-align: center;
+}
+div .jumbotron{
+    background: transparent;
+    position: relative;
+}
+.display-4 {
+    color:#f9130c;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 900;
+}
+.f-tittle{
+    font-family: 'Kaushan Script', cursive;
+    text-transform: initial;
+    color: #40833c;
+    font-size: 100px;
+}
+div .lead{
+    color: #3d3d3d;
+    font-weight: 450;
+}
+.b-jtrom{
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 600;
+    background-color: #40833c;
+    color: white;
+}
+
+div .main-t-1{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.main-t{
+    color: #f9130c;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.w-card{
+    margin: auto;
+}
+.w-image{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.our-menu-section{
+    background-color: #f8f9fa;
+}
+.card-img-top{
+    width: 10rem;
+    margin: auto;
+}
+.c-text{
+    color: rgb(114, 114, 114);
+}
+
+.card{
+    border: transparent;
+    background-color: transparent;
+}
+.menu-name{
+    text-transform: uppercase;
+    font-size: 12pt;
+    margin: 0px!important;
+}
+
+.menu-price{
+    color: #757479;
+    font-weight: bolder;
+    font-size: 10pt;
+    margin: 0px!important;
+}
+
+footer{
+    background-color: #f9130c;
+    color: #ffffff;
+
+}
+.f-row{
+
+    margin-top: auto;
+}
+.btn-subs{
+    background-color: #3a3a3a;
+    color: white;
+    border:transparent;
+    font-family: 'Roboto Slab', sans-serif;
+}
+.field-subs{
+    border: transparent;
+}
+.lif{
+    font-size: 8pt;
+}
+.text-footer{
+    font-size: 8pt;
+}
+
+.f-logo{
+    width: 100px;
+    margin-top: auto!important;
+    margin-bottom: auto!important;
+}
+.m-auto{
+    margin-top: auto;
+    margin-bottom: auto;
+}
